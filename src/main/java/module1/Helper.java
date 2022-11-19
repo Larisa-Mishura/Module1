@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Helper {
 
-    Scanner sc = new Scanner(System.in);
+    private Scanner sc = new Scanner(System.in);
 
     public int inputNumber(String message){
         System.out.println(message);
