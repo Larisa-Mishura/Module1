@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class ArrayService {
-    Helper helper = new Helper();
-    Random random = new Random();
+    private Helper helper = new Helper();
+    private Random random = new Random();
 
     public int inputSizeOfArray(){
         int size = helper.inputNumber("Введіть розмір масиву");
